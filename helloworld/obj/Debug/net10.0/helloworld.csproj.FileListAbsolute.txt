@@ -12,3 +12,4 @@ D:\c# learning\helloworld\obj\Debug\net10.0\refint\helloworld.dll
 D:\c# learning\helloworld\obj\Debug\net10.0\helloworld.pdb
 D:\c# learning\helloworld\obj\Debug\net10.0\helloworld.genruntimeconfig.cache
 D:\c# learning\helloworld\obj\Debug\net10.0\ref\helloworld.dll
+D:\c# learning\helloworld\obj\Debug\net10.0\helloworld.sourcelink.json

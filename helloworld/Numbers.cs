@@ -2,9 +2,9 @@ public class Numbers
 {
     public static void Run()
     {
-        int a = 5;
-        int b = 11;
-        int c = a + b;
-        Console.WriteLine(c);
+        decimal a = 42.9M;
+        decimal b = 22.3M;
+        decimal c = a + b;
+        Console.WriteLine($"The answer is {c}");
     }
 }

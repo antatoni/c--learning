@@ -23,3 +23,5 @@ After the if/elseif/else statment you can have ONE LINE without {} but if you wa
 A singilur = means assignment to a value , two == means "equal"
 
 C# is a compiled language , the code compiles before running to Intermediate Language (IL) , then the .NET runtime gets that code and makes it into machine code ! (Just In Time compilation);
+
+List<T> is basically a dynamic array - it resizes automatically and you can add/remove , while Array in c# is FIXED in size !

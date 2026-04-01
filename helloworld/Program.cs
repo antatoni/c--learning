@@ -1,2 +1,1 @@
-﻿Conditionals.Test1();
-Conditionals.Test2();
+﻿Lists.Test2();

@@ -1,6 +1,6 @@
 public class Numbers
 {
-    public static void Run()
+    public static void Test1()
     {
         decimal a = 42.9M;
         decimal b = 22.3M;

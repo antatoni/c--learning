@@ -16,7 +16,7 @@ checked() checks at RUNTIME , if the calculation you are doing would overflow !
 
 float allows decimals and is a 32bit , double also allows decimals and it is a 64bit both use floating point which sometimes has precision errors, and decimal is accurate but it is a 128 bit integer !;
 
-C# does NOT have truthy/falsy data , its either TRUE or FALSE !
+C# requires explicit boolean expression (NO truthy/falsy like in JS);
 
 After the if/elseif/else statment you can have ONE LINE without {} but if you want to have some logic or more than one line you NEED to put {} after the statement !
 
@@ -25,3 +25,8 @@ A singilur = means assignment to a value , two == means "equal"
 C# is a compiled language , the code compiles before running to Intermediate Language (IL) , then the .NET runtime gets that code and makes it into machine code ! (Just In Time compilation);
 
 List<T> is basically a dynamic array - it resizes automatically and you can add/remove , while Array in c# is FIXED in size !
+
+Just like in JS you can SPREAD using two dots " .. " for example an array : names = [.. , "Maria"]; that code makes a new array , copies the old one and adds a new name to it
+
+When using LINQ only UNTIL you loop over the query or use a method like .Count do you get your answer from it.
+You can use IEnumeruble<> or just chain query methods !(up to personal style tbh);

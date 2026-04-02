@@ -25,4 +25,13 @@ public class Lists
             
         }
     }
+    public static void Test3()
+    {
+        var numbers = new List<double> {2.32,3.43,10.3,9.33};
+        numbers.Sort();
+        foreach (var num in numbers)
+        {
+            Console.WriteLine(num);
+        }
+    }
 }

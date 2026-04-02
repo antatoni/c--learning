@@ -1,1 +1,1 @@
-﻿Lists.Test2();
+﻿LINQ.Test1();

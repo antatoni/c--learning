@@ -14,7 +14,7 @@ int can store only up to 32 bit integers (around 2.1bil) , long can store up to 
 
 checked() checks at RUNTIME , if the calculation you are doing would overflow !
 
-float allows decimals and is a 32bit , double also allows decimals and it is a 64bit both use floating point which sometimes has precision errors, and decimal is accurate but it is a 128 bit integer !;
+float allows decimals and is a 32bit , double also allows decimals and it is a 64bit both use floating point which sometimes has precision errors, and decimal is a 128-bit high-precision decimal type (base-10), used for financial calculations !;
 
 C# requires explicit boolean expression (NO truthy/falsy like in JS);
 
@@ -28,5 +28,7 @@ List<T> is basically a dynamic array - it resizes automatically and you can add/
 
 Just like in JS you can SPREAD using two dots " .. " for example an array : names = [.. , "Maria"]; that code makes a new array , copies the old one and adds a new name to it
 
-When using LINQ only UNTIL you loop over the query or use a method like .Count do you get your answer from it.
-You can use IEnumeruble<> or just chain query methods !(up to personal style tbh);
+LINQ queries use deferred execution — they are executed only when enumerated (foreach, ToList, Count, etc.)
+You can use IEnumerаble<> or just chain query methods !(up to personal style tbh);
+
+in c# we are USING System even though we dont see it , and we have a namespace even though we might not see it , and if we make a namespace manually , we need to USE it in the other file we're referencing !

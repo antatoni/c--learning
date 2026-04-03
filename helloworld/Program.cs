@@ -1,1 +1,1 @@
-﻿LINQ.Test1();
+﻿Tester.Test1();

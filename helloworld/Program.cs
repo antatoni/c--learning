@@ -1,1 +1,1 @@
-﻿Tester.Test1();
+﻿Kata.Maskify("GoshoPochivkaB00B");
